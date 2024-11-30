@@ -1,2 +1,28 @@
 
 /* Your CSS Code here. */
+body {
+        padding: 0px;
+        margin: 0px;
+      }
+      .holder {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+      }
+      .item {
+        width: 200px;
+        height: 150px;
+        margin: 5px;
+      }
+      #a1 {
+        order: 2;
+        background-color: red;
+      }
+      #a2 {
+        order: 3;
+        background-color: blue;
+      }
+      #a3 {
+        order: 1;
+        background-color: green;
+      }
